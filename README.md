@@ -10,6 +10,6 @@ then do a firmware restart.
 
 if you already installed, the current update procedure is pasting and running this line: 
 ```
-cd /home/mks/printer_data/config/config-xplus4 && git reset main --hard && git pull
+cd /home/mks/printer_data/config/ && rm -rf ./config-xplus4/ && git clone https://github.com/qidi-community/config-xplus4 
 ```
 then do a firmware restart. Beware that if you had done any modifications to the mods stored in the `config-xplus4` folder, they'd be erased by this action. 

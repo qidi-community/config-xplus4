@@ -2,7 +2,15 @@
 
 WIP and very much under construction, do not install on your printer without ability to revert.
 
-if you want to test, in the meantime, copy this and paste it into ssh on the printer:
+if you want to test, in the meantime, ssh into on the printer with the following:
+
+```
+ssh mks@[printer's IP]
+```
+
+Password is: `makerbase`
+
+Next, copy this, paste it and press enter.
 ```
 cd /home/mks/printer_data/config/ && git clone https://github.com/qidi-community/config-xplus4 && sed -i '/<---------------------- SAVE_CONFIG ---------------------->/i [include config-xplus4/*.cfg]' printer.cfg
 ```

@@ -3,7 +3,7 @@
 WIP and very much under construction, do not install on your printer without ability to revert.
 
 if you want to test, in the meantime, ssh into on the printer with the following:
-
+(Extended documentation about SSH access [here](https://github.com/qidi-community/Plus4-Wiki/blob/main/content/ssh-access/README.md))
 ```
 ssh mks@[printer's IP]
 ```

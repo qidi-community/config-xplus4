@@ -1,6 +1,6 @@
 # X Plus 4 config files
 
-WIP and very much under construction, do not install on your printer without ability to revert.
+Proven & stood the test of time. However, do not use this if you have beacon/carto, or if your firmware version is 1.7.0 or newer. 
 
 if you want to test, in the meantime, ssh into on the printer with the following:
 (Extended documentation about SSH access [here](https://github.com/qidi-community/Plus4-Wiki/blob/main/content/ssh-access/README.md))
